@@ -1,0 +1,133 @@
+.winner {
+    color: rgb(219, 54, 21);
+}
+
+#doll {
+    height: 150px;
+    position: absolute;
+    right: 30px;
+}
+
+#header {
+    display: flex;
+    flex-wrap: initial;
+    height: 100px;
+    width: auto;
+    background-color: black;
+    font-size: 200%;
+
+}
+
+#title {
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 150%;
+}
+
+body {
+    background-color: black;
+}
+
+.text {
+    color: aliceblue;
+    font-family: 'Staatliches', cursive;
+}
+
+.button {
+    border-radius: 12px;
+    background-color: rgb(219, 54, 21);
+    color: aliceblue;
+    font-family: 'Staatliches', cursive;
+    padding: 12px 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 120%;
+}
+
+.button:hover {
+    background-color: #6b1313;
+    color: white;
+    box-shadow: 0 8px 16px rgb(89, 88, 88), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#playing {
+    font-size: 250%;
+    text-align: center;
+}
+
+#score {
+    font-size: 380%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#input {
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.flex-con {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: 0;
+    height: 0px;
+    box-shadow: 0 0 25px 1px rgb(250, 250, 250);
+    margin-bottom: 50px;
+}
+
+@media all and (max-width: 870px) {
+    #doll {
+        height: 120px;
+        right: 5px;
+    }
+
+    #playing {
+        font-size: 200%;
+    }
+
+    #score {
+        font-size: 200%;
+        margin-bottom: 20px;
+    }
+
+    hr {
+        margin: 10px auto;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #doll {
+        display: none;
+    }
+
+    #score {
+        font-size: 200%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .button {
+        font-size: 100%;
+    }
+
+    hr {
+        margin: 10px auto;
+    }
+
+    #playing {
+        font-size: 150%;
+    }
+}
